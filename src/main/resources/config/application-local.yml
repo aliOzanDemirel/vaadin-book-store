@@ -1,0 +1,23 @@
+vaadin:
+  servlet:
+    productionMode: false
+    heartbeatInterval: -1
+
+server:
+  undertow:
+    accesslog:
+      enabled: false
+
+logging:
+  level:
+    root: DEBUG
+    org.springframework: INFO
+    org.hibernate: INFO
+    com.zaxxer: INFO
+    com.vaadin: INFO
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
