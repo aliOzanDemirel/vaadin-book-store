@@ -24,6 +24,7 @@ version = '1.0-RELEASE'
 
 apply plugin: 'application'
 mainClassName = 'app.AppMain'
+bootJar.archiveName = 'VaadBooks.jar'
 
 repositories {
     mavenLocal()
